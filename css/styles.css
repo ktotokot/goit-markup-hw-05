@@ -489,8 +489,6 @@ margin-bottom: 16px;
   fill: #f4f4fd;
 }
 
-.footer-form-wrap {}
-
 .footer-text {
     color: #FFF;
     font-size: 16px;
@@ -505,8 +503,6 @@ margin-bottom: 16px;
     display: flex;
     gap: 24px;
 }
-
-.footer-label {}
 
 .footer-input {
     border-radius: 4px;
@@ -550,8 +546,8 @@ margin-bottom: 16px;
     min-width: 165px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
 }
-
 
 .footer-form-btn:focus,
 .footer-form-btn:hover {
@@ -562,6 +558,7 @@ margin-bottom: 16px;
     margin-left: 16px;
 }
 /* #endregion */
+
 
 /* #region modal */
 .backdrop {
